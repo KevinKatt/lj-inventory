@@ -625,7 +625,7 @@ RegisterNetEvent('inventory:server:OpenInventory', function(name, id, other)
 					slots = other.slots or 50
 				end
 				secondInv.name = "stash-"..id
-				secondInv.label = "Stash-"..id
+				secondInv.label = "Förråd-"..id
 				secondInv.maxweight = maxweight
 				secondInv.inventory = {}
 				secondInv.slots = slots
@@ -662,7 +662,7 @@ RegisterNetEvent('inventory:server:OpenInventory', function(name, id, other)
 					end
 				end
 				secondInv.name = "trunk-"..id
-				secondInv.label = "Trunk-"..id
+				secondInv.label = "Bagage-"..id
 				secondInv.maxweight = other.maxweight or 60000
 				secondInv.inventory = {}
 				secondInv.slots = other.slots or 50
@@ -705,7 +705,7 @@ RegisterNetEvent('inventory:server:OpenInventory', function(name, id, other)
 					end
 				end
 				secondInv.name = "glovebox-"..id
-				secondInv.label = "Glovebox-"..id
+				secondInv.label = "Handsfack-"..id
 				secondInv.maxweight = 10000
 				secondInv.inventory = {}
 				secondInv.slots = 5
@@ -764,7 +764,7 @@ RegisterNetEvent('inventory:server:OpenInventory', function(name, id, other)
 				local OtherPlayer = QBCore.Functions.GetPlayer(tonumber(id))
 				if OtherPlayer then
 					secondInv.name = "otherplayer-"..id
-					secondInv.label = "Player-"..id
+					secondInv.label = "Person-"..id
 					secondInv.maxweight = QBCore.Config.Player.MaxWeight
 					secondInv.inventory = OtherPlayer.PlayerData.items
 					if Player.PlayerData.job.name == "police" and Player.PlayerData.job.onduty then

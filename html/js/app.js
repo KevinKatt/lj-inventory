@@ -2299,7 +2299,7 @@ var requiredItemOpen = false;
     Inventory.slots = 40;
 
     Inventory.dropslots = 30;
-    Inventory.droplabel = "Drop";
+    Inventory.droplabel = "Marken";
     Inventory.dropmaxweight = 100000;
 
     Inventory.Error = function() {
