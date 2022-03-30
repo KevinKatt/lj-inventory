@@ -2940,11 +2940,11 @@ var requiredItemOpen = false;
         if (itemBoxtimer !== null) {
             clearTimeout(itemBoxtimer);
         }
-        var type = "Used " + data.itemAmount + "x";
+        var type = "Använde " + data.itemAmount +"st";
         if (data.type == "add") {
-          type = "Received " + data.itemAmount + "x";
+          type = "Tog emot " + data.itemAmount +"st";
         } else if (data.type == "remove") {
-          type = "Removed " + data.itemAmount + "x";
+          type = "Du använde " + data.itemAmount +"st";
         }
 
         var $itembox = $(".itembox-container.template").clone();
