@@ -610,6 +610,15 @@ function FormatItemInfo(itemData, dom) {
                 itemData.info.cash +
                 "</span></p>"
             );
+        } else if (itemData.name == "vehiclekey") {
+            $(".item-info-title").html(
+				'<p>' + itemData.info.vehname + '</p>'
+			);
+            $(".item-info-description").html(
+				'<p>Owner : ' + itemData.info.owner +
+				'</p><p>Plate: ' + itemData.info.plate +
+				'</p>'
+			);
         } else if (itemData.name == "markedbills") {
             $(".item-info-title").html("<p>" + itemData.label + "</p>");
             $(".item-info-description").html(
