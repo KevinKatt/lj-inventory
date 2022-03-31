@@ -2,7 +2,7 @@
 
 .bg-button { background: rgba(220, 20, 60, 0.6)!important; }
 .text-check { color: rgba(255, 255, 255, 0.8)!important; }
-.text-checkbox { color: #0fffd5!important; }
+.text-checkbox { color: #dc143c!important; }
 .q-checkbox__svg { color: #000!important; }
 div#q-loading-bar { display: none!important; }
 ::-webkit-scrollbar { display: none!important; }
@@ -434,7 +434,7 @@ body {
     position: absolute;
     width: 0%;
     height: 150%;
-    background-color: #0fffd5;
+    background-color: #dc143c;
     z-index: 1;
 }
 
@@ -663,7 +663,7 @@ body {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: #0fffd5;
+    background-color: #dc143c;
     height: 0.3vh;
 }
 
@@ -720,7 +720,7 @@ body {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: #0fffd5;
+    background-color: #dc143c;
     height: 0.3vh;
 }
 
@@ -973,7 +973,7 @@ body {
 .weapon-attachments-container-detail-durability-total {
     height: 100%;
     width: 50%;
-    background-color: #0fffd5;
+    background-color: #dc143c;
 }
 
 .weapon-attachments-container-image {
@@ -1081,7 +1081,7 @@ body {
 }
 
 .weapon-attachments-remove-hover {
-    background-color: #0fffd5;
+    background-color: #dc143c;
 }
 
 .weapon-dragging-class {
