@@ -640,7 +640,7 @@ RegisterCommand('inventory', function()
                 TriggerServerEvent("inventory:server:OpenInventory", "drop", CurrentDrop)
             elseif VendingMachine then
                 local ShopItems = {}
-                ShopItems.label = "Vending Machine"
+                ShopItems.label = "Automat"
                 ShopItems.items = Config.VendingItem
                 ShopItems.slots = #Config.VendingItem
                 TriggerServerEvent("inventory:server:OpenInventory", "shop", "Vendingshop_"..math.random(1, 99), ShopItems)
