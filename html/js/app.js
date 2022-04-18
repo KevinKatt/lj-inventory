@@ -618,7 +618,11 @@ function FormatItemInfo(itemData, dom) {
 				'<p>Owner : ' + itemData.info.owner +
 				'</p><p>Plate: ' + itemData.info.plate +
 				'</p>'
-			);
+			); 
+        } else if (itemData.name == "duffel-bag") {
+                $(".item-info-title").html('<p>'+itemData.label+'</p>')
+                $(".item-info-description").html('<p><strong>Bag ID Number: </strong><span>' + itemData.info.bagid
+            );        
         } else if (itemData.name == "markedbills") {
             $(".item-info-title").html("<p>" + itemData.label + "</p>");
             $(".item-info-description").html(
