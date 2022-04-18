@@ -51,7 +51,7 @@
                 <div class="inv-options">
                     <div class="inv-options-list">
                         <img class="brand-logo" src="./images/xr-logo.png"></img>
-                        <input type="number" id="item-amount" class="inv-option-item" min=0 placeholder="0" oninput="validity.valid||(value='');"></input>
+                        <input type="number" id="item-amount" class="inv-option-item" min=1 max="10000" placeholder="0" pattern="[0-9]" onfocus="this.value=''" placeholder="" oninput="validity.valid||(value='');"></input>
                         <div class="inv-option-item" id="item-use"><p>Använd</p></div>
                         <!-- <img class="inv-option-hand" id= "item-use" src="images/hand-1.png"> -->
                         <div class="inv-option-item" id="item-give"><p>Ge</p></div>
